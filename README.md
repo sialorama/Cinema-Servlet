@@ -3,7 +3,7 @@
 Les Servlets
 Une servlet est un composant Web de Java EE. Elle permet de traiter une requête entrante sur un serveur et de générer une réponse dynamique. La plupart du temps, les servlets sont utilisées pour traiter des requêtes HTTP et générer dynamiquement une réponse.
 
-L’API servlet est définie par la spécification [!link JSR-000369] (https://jcp.org/aboutJava/communityprocess/final/jsr369/index.html) et la version actuelle est la 4.0.
+L’API servlet est définie par la spécification [JSR-000369] (https://jcp.org/aboutJava/communityprocess/final/jsr369/index.html) et la version actuelle est la 4.0.
 
 Structure d’une servlet HTTP
 Une servlet HTTP est une classe Java qui hérite de la classe javax.servlet.http.HttpServlet :
