@@ -7,7 +7,7 @@ L’API servlet est définie par la spécification JSR-000369 et la version actu
 
 Structure d’une servlet HTTP
 Une servlet HTTP est une classe Java qui hérite de la classe javax.servlet.http.HttpServlet :
-
+```java
 package fr.epsi.b3;
 
 import javax.servlet.http.HttpServlet;
@@ -15,4 +15,5 @@ import javax.servlet.http.HttpServlet;
 public class MyServlet extends HttpServlet {
 
 }
+```
 Par défaut, la classe javax.servlet.http.HttpServlet fournit des méthodes doXXX (XXX représentant une méthode HTTP) qui seront appelées lorsque la servlet devra traiter une requête HTTP de la méthode correspondante.
